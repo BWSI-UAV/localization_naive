@@ -22,7 +22,7 @@ Download the data from [here](https://drive.google.com/drive/folders/1teG22aWzBd
 # Step 4: Start localization viewer
 
 ```
-roslaunch localization_naive start_viewer.launch
+roslaunch localization_naive start_rqt.launch
 ```
 
 # Step 5: Drag and drop the `/processed_pose` topic to the cube. 
