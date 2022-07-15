@@ -1,4 +1,4 @@
-# Naive Localization using Dead Reckoning
+# Practical 2: Naive Localization using Dead Reckoning
 This rosnode performs naive dead reckoning using the IMU (accelerometer, gyroscope).
 This works with RealSense data, but can be adapted to work with your tello.
 
