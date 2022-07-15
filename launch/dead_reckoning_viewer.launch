@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="localization_naive" type="dead_reckoning.py" name="dead_reckoning" />
+	<node name = "my_rqt_dashboard" pkg = "rqt_gui" type = "rqt_gui" respawn = "false" output = "screen" args = "--perspective-file $(find localization_naive)/dead_reckoning.perspective"/>
+	<node pkg="rosbag" type="play" name="player" output="screen" args="--clock $(find localization_naive)/localization_data/sample_data.bag"/>
+</launch>

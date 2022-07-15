@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="localization_naive" type="dead_reckoning.py" name="dead_reckoning" />
+	<node pkg="rosbag" type="play" name="player" output="screen" args="--clock $(find localization_naive)/localization_data/sample_data.bag"/>
+</launch>
