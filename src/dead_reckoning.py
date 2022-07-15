@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 import tf
 import rospy
 from visualization_msgs.msg import Marker
