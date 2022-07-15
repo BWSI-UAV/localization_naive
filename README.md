@@ -14,7 +14,7 @@ cd ..
 
 ```
 catkin_make
-source ~/catkin_ws/devel/setup/bash
+source ~/catkin_ws/devel/setup.bash
 ```
 
 ## Step 3: Download localization test data and save to `~/catkin_ws/src/localization_data`
