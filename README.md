@@ -1,6 +1,6 @@
 # Naive Localization using Dead Reckoning
 This rosnode performs naive dead reckoning using the IMU (accelerometer, gyroscope).
-This works with RealSense(tm) data, but can be adapted to work with your tello.
+This works with RealSense data, but can be adapted to work with your tello.
 
 ## Step 1: Clone this repo into your `~/catkin_ws/src` folder.
 
